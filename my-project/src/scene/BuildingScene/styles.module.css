@@ -1,0 +1,12 @@
+.sceneContainer {
+  width: 100vw;
+  height: 100vh;
+  position: relative
+}
+
+.addButtonContainer {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%)
+}

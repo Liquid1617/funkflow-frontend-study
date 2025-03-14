@@ -1,0 +1,46 @@
+.spinBoxContainer {
+  display: inline-flex;
+  align-items: center;
+  background-color: #f5f6f7; 
+  border-radius: 4px;
+  padding: 4px 8px;
+  gap: 8px;
+}
+
+.spinBoxLabel {
+  color: #8c939a;
+  font-size: 14px;
+  user-select: none;
+}
+
+.spinBoxValue {
+  border: none;
+  background: transparent;
+  text-align: center;
+  width: 30px;
+  font-size: 14px;
+  color: black;
+  font-weight: 300;
+  outline: none;
+}
+
+.spinBoxArrows {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.arrowBtn {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  width: 16px;
+  height: 12px;
+  outline: none;
+}
+
+.arrowBtn:hover {
+  opacity: 0.8;
+}

@@ -1,0 +1,13 @@
+.addBuildingButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  background-color: #fff;
+  border: none;
+  color: #0084ff;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-weight: 400;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
